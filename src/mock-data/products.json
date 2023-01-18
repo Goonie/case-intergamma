@@ -1,0 +1,81 @@
+{
+  "products": [
+    {
+      "id": "95076-4",
+      "name": "Sledge",
+      "price": 699.95,
+      "photo": "sledge.jpeg",
+      "description": "Engineered. Tested. Built to a higher standard. The all-new Sledge® is made to exceed your expectations for quality, toughness, and fun. The rock-solid chassis, massive steel drivetrain, ferocious 6s power, and race-inspired handling leave everything else in the dust."
+    },
+    {
+      "id": "78086-4",
+      "name": "XRT",
+      "price": 999.95,
+      "photo": "xrt.jpeg",
+      "description": "The Traxxas XRT™ fuses race-inspired design and engineering with X-Maxx® power and strength. The result is an all-new platform with sharp reflexes and unprecedented stability that is capable of exploiting the upper range of extreme 8s power and speed."
+    },
+    {
+      "id": "77086-4",
+      "name": "X-Maxx",
+      "price": 999.95,
+      "photo": "x-maxx.jpeg",
+      "description": "Unrelenting 4X4 power, mammoth size, and award-winning innovation make X-Maxx the ultimate monster truck. With 30+ volts of extreme 8S power, X-Maxx defies physics, unleashing jaw-dropping acceleration and 50+mph speeds. Engineered to conquer the most extreme terrain and take brutal real-world punishment in stride, X-Maxx is the definition of Traxxas Tough®."
+    },
+    {
+      "id": "85086-4",
+      "name": "UDR",
+      "price": 699.95,
+      "photo": "udr.jpeg",
+      "description": "The Unlimited Desert Racer combines Pro Scale® performance with extreme 6s power for the most thrilling RC driving experience possible. The UDR® drives like a real desert truck because it’s engineered like a real desert truck. A 4-link solid rear axle provides huge suspension travel with authentic driving dynamics. From the cantilever sway bars and high-voltage lighting system to the GTR shocks, Traxxas accurately reproduced a true desert racer in both form and function."
+    },
+    {
+      "id": "89086-4",
+      "name": "Maxx",
+      "price": 569.95,
+      "photo": "maxx.jpeg",
+      "description": "The Traxxas X-Maxx® is a giant that forever changed the face of RC monster trucks. Its radical cutting-edge design, massive size, brutal strength, and unmatched power transformed X-Maxx into the stuff of legends. The 1/10 Traxxas Maxx® expertly packages X-Maxx’s innovative design elements and jaw-dropping strength into a lighter, more compact, even more ferocious beast. Now the newest Maxx is even bigger, with a longer wheelbase, beefier Sledgehammer® tires, and that incredible WideMaxx® stance for even more intense action. Let the fun begin!"
+    },
+    {
+      "id": "86086-4",
+      "name": "E-Revo",
+      "price": 549.95,
+      "photo": "e-revo.jpeg",
+      "description": "There is no other monster truck like E-Revo. It embodies the highest level of creativity in design and engineering that unleashed a stunning array of new technology, new innovation, and unheard of speed that reset every benchmark for racing monster truck performance. Now there is a new generation of E-Revo. This new E-Revo retains all the benefits of its original ground-breaking, award-winning design, but fortifies them with brute strength and an intense, take-no-prisoners attitude to deliver what is simply the ultimate 6s monster. Get ready for a whole new level of power, strength, and speed."
+    },
+    {
+      "id": "68077-4",
+      "name": "Slash 4x4 Ultimate",
+      "price": 499.95,
+      "photo": "slash.jpeg",
+      "description": "Experience the pinnacle of short course truck performance with the Slash® 4X4 Ultimate. Fully loaded out of the box, the Slash Ultimate features brutal Velineon® brushless power and Traxxas Stability Management® (TSM) with a high-speed metal gear servo. Carve corners like a pro thanks to the low-CG chassis, installed sway bars, and ultra-smooth blue PTFE-coated aluminum GTR shocks. Slash 4X4 Ultimate packs a full complement of aluminum hop-up parts and performance accessories for added strength and show-stopping looks. Slash 4X4 Ultimate arrives fully assembled with factory-installed telemetry sensors and a Wireless Link equipped TQi™ 2.4GHz radio system. Simply add the battery of your choice (sold separately) and you’re ready for intense tire-scorching action."
+    },
+    {
+      "id": "82056-4",
+      "name": "TRX-4",
+      "price": 499.95,
+      "photo": "trx-4.jpeg",
+      "description": "The Traxxas TRX-4® Scale and Trail® Crawler is an all-new Traxxas design that is loaded with innovation that instantly obsoletes the status quo with exciting new features, versatility, and capability. In other words, we built it the Traxxas way, rugged, powerful, and ready for fun! Underneath the authentic scale look is a machine built for extreme off-road capability that takes you to new places and new adventures. Exclusive portal axles deliver maximum ground clearance that dramatically turns “no way” into “no problem.” Whether you are enjoying outdoor trails or getting technical on the rocks, the remote-locking front and rear differentials and high/low range transmission provide unmatched driving versatility."
+    },
+    {
+      "id": "94076-4",
+      "name": "Drag Slash",
+      "price": 349.95,
+      "photo": "drag-slash.jpeg",
+      "description": "Drag Slash has been engineered with thoughtful features and innovative performance to win at any level of skill and experience. The Pro Series Magnum 272R gearbox is engineered for massive torque. The proven Velineon power system delivers strong, reliable muscle to lay down the quickest passes. The exclusive Drag Mode and Trans Brake provide incredible versatility—and Drag Slash does it all with classic Chevy C10 style. This is no prep racing the Traxxas way."
+    },
+    {
+      "id": "24076-74",
+      "name": "Bandit VXL",
+      "price": 329.95,
+      "photo": "bandit.jpeg",
+      "description": "The Bandit™ VXL is a low-slung, lightweight speed machine that scorches pavement with wheelie-popping acceleration and rips incredible roost off-road. Bandit VXL is a driver's machine that puts your skills to the test with its mind-blowing 70+ mph top speed and lightning-quick handling. The Bandit VXL elevates buggy performance to the next level with incredible Velineon™ brushless horsepower and the sure-footed control of Traxxas Stability Management®. Bandit’s fully waterproof electronics make even the wildest all-weather adventures possible as you shatter speed limits and discover a new world of RC excitement."
+    },
+    {
+      "id": "64077-3",
+      "name": "XO-1",
+      "price": 749.95,
+      "photo": "xo-1.jpeg",
+      "description": "From a dead stop, 60mph flashes by in 2.3 seconds. Keep the throttle pegged and you’ll smash the 100mph barrier in 4.92 seconds. Simply put, XO-1 is the fastest and most outrageous Ready-to-Race® RC car ever created. New aero improvements make XO-1 even easier to drive at the limit and more fun than ever before. If you’re looking for the most extreme RC thrill ride ever to hit the pavement, look no further than Traxxas, The Fastest Name in Radio Control®."
+    }
+  ]
+}
