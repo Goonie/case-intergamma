@@ -1,6 +1,4 @@
-import { useEffect, useState } from 'react';
-
-import mockData from 'mock-data/products.json';
+import { useQuery } from '@tanstack/react-query';
 
 interface Product {
   id: string;
@@ -11,13 +9,18 @@ interface Product {
 }
 
 function useProducts() {
-  const [products, setProducts] = useState<Product[]>([]);
+  function fetchProducts() {
+    return fetch('mock-data/products.json')
+      .then((response) => response.json())
+      .then((response) => response.products);
+  }
 
-  useEffect(() => {
-    setProducts(mockData.products);
-  }, []);
+  const { isLoading, error, data } = useQuery<Product[]>({
+    queryKey: ['product-data'],
+    queryFn: fetchProducts,
+  });
 
-  return { products };
+  return { isLoading, error, products: data ?? [] };
 }
 
 export type { Product };
