@@ -1,0 +1,24 @@
+.WishlistIcon {
+  cursor: pointer;
+  position: relative;
+  padding: 0.5rem;
+  color: var(--background-color);
+  background-color: var(--text-color-dark);
+  border: none;
+  transform: rotateZ(-5deg);
+}
+
+.WishlistIcon .count-total {
+  display: block;
+  position: absolute;
+  right: -1rem;
+  top: -1rem;
+  width: 2rem;
+  height: 2rem;
+  color: var(--background-color);
+  background-color: hsl(0, 80%, 50%);
+  border-radius: 50%;
+  font-size: 1rem;
+  line-height: 2rem;
+  transform: rotateZ(10deg);
+}
