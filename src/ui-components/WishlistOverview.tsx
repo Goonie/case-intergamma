@@ -21,7 +21,7 @@ function WishlistOverview() {
       )}
 
       {wishlist.map((item) => (
-        <article>
+        <article key={item.product.id}>
           <img src={'/product-photos/' + item.product.photo} />
           <h1>
             {item.product.name} <span className="id">{item.product.id}</span>
