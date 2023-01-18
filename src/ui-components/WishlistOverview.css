@@ -31,6 +31,12 @@
   transform: rotateZ(5deg);
 }
 
+.WishlistOverview .empty {
+  margin-top: 4rem;
+  font-size: 2rem;
+  transform: rotateZ(-2deg);
+}
+
 .WishlistOverview article {
   overflow: hidden;
   position: relative;

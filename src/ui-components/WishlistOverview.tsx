@@ -14,6 +14,12 @@ function WishlistOverview() {
         <button onClick={closeOverview}>Close</button>
       </header>
 
+      {wishlist.length === 0 && (
+        <h1 className="empty">
+          No cars yet! Add some and keep track of your wishlist here!
+        </h1>
+      )}
+
       {wishlist.map((item) => (
         <article>
           <img src={'/product-photos/' + item.product.photo} />
