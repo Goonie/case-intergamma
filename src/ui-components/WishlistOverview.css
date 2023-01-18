@@ -1,0 +1,74 @@
+.WishlistOverview {
+  position: fixed;
+  z-index: 100;
+  right: -40%;
+  top: 0;
+  padding: 2rem;
+  background-color: var(--card-background-color);
+  transition: right 0.25s ease-in-out;
+  width: 40%;
+  height: 100vh;
+}
+
+.WishlistOverview.visible {
+  right: 0;
+}
+
+.WishlistOverview header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.WishlistOverview header button {
+  cursor: pointer;
+  position: relative;
+  padding: 0.5rem;
+  color: var(--background-color);
+  background-color: var(--text-color-dark);
+  border: none;
+  font-weight: 600;
+  text-transform: uppercase;
+  transform: rotateZ(5deg);
+}
+
+.WishlistOverview article {
+  overflow: hidden;
+  position: relative;
+  margin-top: 2rem;
+  background-color: var(--background-color);
+}
+
+.WishlistOverview article img {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  z-index: 10;
+  width: 35%;
+  transform: translateY(-50%);
+}
+
+.WishlistOverview article h1 {
+  margin: -1.5rem 0 0 30%;
+  padding: 1.5rem 1.5rem 0;
+  color: var(--text-color-dark);
+  background-color: hsl(40, 100%, 50%);
+  transform: rotateZ(-5deg);
+  font-size: 2rem;
+}
+
+.WishlistOverview article h1 .id {
+  font-size: 0.5rem;
+}
+
+.WishlistOverview article p {
+  margin-left: 40%;
+  transform: rotateZ(-5deg);
+}
+
+.WishlistOverview article .total-price {
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  text-align: right;
+  transform: rotateZ(0);
+}

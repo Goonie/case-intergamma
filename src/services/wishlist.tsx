@@ -14,6 +14,9 @@ interface WishlistItem {
 
 const WishlistContext = createContext<
   | {
+      overviewVisible: boolean;
+      openOverview: () => void;
+      closeOverview: () => void;
       wishlist: WishlistItem[];
       addToWishlist: (product: WishlistProduct) => void;
     }
@@ -21,7 +24,16 @@ const WishlistContext = createContext<
 >(undefined);
 
 function WishlistProvider({ children }: { children: React.ReactNode }) {
+  const [overviewVisible, setOverviewVisible] = useState(false);
   const [wishlist, setWishlist] = useState<WishlistItem[]>([]);
+
+  function openOverview() {
+    setOverviewVisible(true);
+  }
+
+  function closeOverview() {
+    setOverviewVisible(false);
+  }
 
   function addToWishlist(product: WishlistProduct) {
     const foundIndex = wishlist.findIndex(
@@ -43,7 +55,15 @@ function WishlistProvider({ children }: { children: React.ReactNode }) {
   }
 
   return (
-    <WishlistContext.Provider value={{ wishlist, addToWishlist }}>
+    <WishlistContext.Provider
+      value={{
+        overviewVisible,
+        openOverview,
+        closeOverview,
+        wishlist,
+        addToWishlist,
+      }}
+    >
       {children}
     </WishlistContext.Provider>
   );
