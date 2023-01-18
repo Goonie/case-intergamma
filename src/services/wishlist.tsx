@@ -1,4 +1,5 @@
-import React, { createContext, useContext, useState } from 'react';
+import React, { createContext, useContext } from 'react';
+import { usePersistentState } from 'utilities/persistent-state';
 
 interface WishlistProduct {
   id: string;
@@ -24,8 +25,14 @@ const WishlistContext = createContext<
 >(undefined);
 
 function WishlistProvider({ children }: { children: React.ReactNode }) {
-  const [overviewVisible, setOverviewVisible] = useState(false);
-  const [wishlist, setWishlist] = useState<WishlistItem[]>([]);
+  const [overviewVisible, setOverviewVisible] = usePersistentState<boolean>(
+    'overview-visibility',
+    false
+  );
+  const [wishlist, setWishlist] = usePersistentState<WishlistItem[]>(
+    'wishlist-items',
+    []
+  );
 
   function openOverview() {
     setOverviewVisible(true);
