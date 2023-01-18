@@ -15,6 +15,7 @@ function useProducts() {
       .then((response) => response.products);
   }
 
+  // const productsQuery = useQuery<Product[]>({
   const { isLoading, error, data } = useQuery<Product[]>({
     queryKey: ['product-data'],
     queryFn: fetchProducts,
