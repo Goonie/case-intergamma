@@ -12,4 +12,8 @@ En uiteindelijk is het project zelf dan te starten middels:
 
 `pnpm dev`
 
+Als de omgeving draait, is de pagina te zien op dit URL:
+
+[url=http://localhost:5173/src/]http://localhost:5173/src/[/url]
+
 Er zijn natuurlijk allerlei dingen die ik graag nog had uitgebreid, verbeterd, etc. Dat kom ik vrijdag graag even toelichten!
